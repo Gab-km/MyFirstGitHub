@@ -4,5 +4,5 @@ module FizzBuzzMain
 
 let fizzbuzz num =
     if num % 3 = 0 then "Fizz"
-    elif num = 5 then "Buzz"
+    elif num % 5 = 0 then "Buzz"
     else num.ToString ();;

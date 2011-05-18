@@ -18,3 +18,7 @@ let test_fizzbuzz_4を適用したら4って返す () =
 [<Test>]
 let test_fizzbuzz_6を適用したらFizzって返す () =
     Assert.That ("Fizz", Is.EqualTo (fizzbuzz 6));;
+
+[<Test>]
+let test_fizzbuzz_10を適用したらBuzzって返す () =
+    Assert.That ("Buzz", Is.EqualTo (fizzbuzz 10));;
