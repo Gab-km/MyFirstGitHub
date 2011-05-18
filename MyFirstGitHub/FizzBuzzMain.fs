@@ -3,6 +3,6 @@
 module FizzBuzzMain
 
 let fizzbuzz num =
-    if num = 3 then "Fizz"
+    if num % 3 = 0 then "Fizz"
     elif num = 5 then "Buzz"
     else num.ToString ();;
