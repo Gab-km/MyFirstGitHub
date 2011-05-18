@@ -30,3 +30,7 @@ let test_fizzbuzz_15を適用したらFizzBuzzって返す () =
 [<Test>]
 let test_fizzbuzz_0を適用したら0って返す () =
     Assert.That ("0", Is.EqualTo (fizzbuzz 0));;
+
+[<Test>]
+let test_fizzbuzz_minus1を適用したらminus1を返す () =
+    Assert.That ("-1", Is.EqualTo (fizzbuzz (-1)));;
